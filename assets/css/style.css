@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://picsum.photos/800/800/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 20px 10px 20px 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
